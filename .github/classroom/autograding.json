@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Exam code present",
+      "setup": "",
+      "run": "bash ./survey_complete.sh",
+      "input": "",
+      "output": "[0-9]{9}",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 25000
+    }
+  ]
+}
